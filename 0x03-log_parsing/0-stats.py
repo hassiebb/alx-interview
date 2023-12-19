@@ -35,4 +35,3 @@ finally:
     for key, value in sorted(cache.items()):
         if value != 0:
             print('{}: {}'.format(key, value))
-            
